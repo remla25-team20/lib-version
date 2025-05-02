@@ -1,0 +1,28 @@
+{
+  "name": "@remla25-team20/lib-version",
+  "version": "1.0.0",
+  "description": "A very basic package that is version aware",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remla25-team20/lib-version.git"
+  },
+  "keywords": [
+    "version",
+    "package",
+    "utility"
+  ],
+  "author": "REMLA25 Team 20",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remla25-team20/lib-version/issues"
+  },
+  "homepage": "https://github.com/remla25-team20/lib-version#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
