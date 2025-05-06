@@ -1,6 +1,4 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const packageJson = require('../package.json');
+import * as packageJson from '../package.json';
 
 export class VersionUtil {
     /**
