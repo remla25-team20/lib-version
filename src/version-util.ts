@@ -7,7 +7,7 @@ export class VersionUtil {
      * Returns the current version of the package
      * @returns {string} The current version
      */
-    static getVersion() {
+    static getVersion(): string {
         return packageJson.version;
     }
 } 

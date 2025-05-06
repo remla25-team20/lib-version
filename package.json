@@ -1,10 +1,13 @@
 {
   "name": "@remla25-team20/lib-version",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A very basic package that is version aware",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +27,9 @@
   "homepage": "https://github.com/remla25-team20/lib-version#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.24"
   }
 }
